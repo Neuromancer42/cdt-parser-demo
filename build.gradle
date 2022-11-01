@@ -1,0 +1,8 @@
+plugins {
+    id 'biz.aQute.bnd.workspace'
+}
+
+repositories {
+    mavenCentral()
+    gradlePluginPortal()
+}

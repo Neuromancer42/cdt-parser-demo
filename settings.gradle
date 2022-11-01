@@ -1,0 +1,14 @@
+pluginManagement {
+    plugins {
+        id 'biz.aQute.bnd.workspace' version "6.2.0"
+        id 'biz.aQute.bnd' version "6.2.0"
+    }
+    repositories {
+        mavenCentral()
+        gradlePluginPortal()
+    }
+}
+
+rootProject.name = 'cdt-parser-demo'
+
+include 'cdtdemo'
